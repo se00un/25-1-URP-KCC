@@ -1,0 +1,23 @@
+# venv
+venv/
+env/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# mac/win
+.DS_Store
+Thumbs.db
+
+# secrets / env
+.env
+.streamlit/secrets.toml
+
+# misc
+*.log
